@@ -13,7 +13,6 @@ const About = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">About Me</h2>
 
           <div className="grid md:grid-cols-2 gap-12 lg:grid-cols-2">
-            {/* Left side: About Me and Technical Skills */}
             <div className="space-y-6">
               <div className="bg-gray-50 p-6 rounded-xl">
                 <h3 className="text-xl font-semibold mb-4">About Me</h3>
@@ -52,8 +51,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-
-            {/* Right side: Education and Professional Experience */}
             <div className="space-y-6">
               <div className="bg-gray-50 p-6 rounded-xl">
                 <div className="flex items-center mb-4">
@@ -71,7 +68,6 @@ const About = () => {
                       <li>Built performant applications with Next.js</li>
                     </ul>
                   </div>
-                  {/* Add more experience items if needed */}
                 </div>
               </div>
 

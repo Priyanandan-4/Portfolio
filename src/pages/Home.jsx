@@ -4,7 +4,7 @@ import { BsGithub } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
-
+import pr from '../../public/assets/priyanandan.jpg'
 
 const Home = () => {
   return (
@@ -15,10 +15,10 @@ const Home = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="flex-1 rounded-full overflow-hidden w-96 h-96 mx-auto bg-gradient-to-t from-[#09203f] to-[#537895]"
+            className="flex-1 rounded-full overflow-hidden w-96 h-96 mx-auto bg-gradient-to-t from-[#09203f] to-[#537895] 	box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);"
           >
             <img
-              src="pic.png"  
+              src={pr}  
               alt="Priyanandan"
               className="w-full h-full object-cover"
             />
@@ -49,14 +49,14 @@ const Home = () => {
                 <FaFacebookF  size={28} />
               </a>
               <a
-                href="mailto:jubintajj@gmail.com"
+                href="https://www.instagram.com/_p_n4_/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Ft%2F17847660648228640%2F%3Fhl%3Den%26__coig_login%3D1"
                 className="p-2  rounded-full"
               >
                 <FaInstagram size={28} />
               </a>
            
               <a
-                href="https://github.com/JUBINTAJ"
+                href="https://github.com/Priyanandan-4"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full"
